@@ -22,7 +22,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: contain;
-    animation: hue 20s infinite;
+    animation: hue 120s infinite;
 }
 
 .one {
