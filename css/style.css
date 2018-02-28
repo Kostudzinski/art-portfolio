@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #fefefe;
+}
+
+.border {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    -webkit-box-shadow: inset 0px 0px 0px 50px #fefefe;
+    -moz-box-shadow: inset 0px 0px 0px 50px #fefefe;
+    box-shadow: inset 0px 0px 0px 50px #fefefe;
+    position: fixed;
+    z-index: 10;
+}
+
+.paint {
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    box-sizing: border-box;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    animation: hue 20s infinite;
+}
+
+.one {
+    background-image: url(../img/Paint1.jpg);
+}
+
+.two {
+    background-image: url(../img/Paint2.jpg);
+}
+
+.three {
+    background-image: url(../img/Paint1.jpg);
+
+}
+
+.four {
+    background-image: url(../img/Paint2.jpg);
+}
+
+.five {
+    background-image: url(../img/Paint1.jpg);
+}
+
+@keyframes hue {
+    0%   {filter: hue-rotate(0);}
+    50%  {filter: hue-rotate(360deg);}
+    100% {filter: hue-rotate(0);}
+}
+
+
